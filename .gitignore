@@ -1,0 +1,48 @@
+# Python virtual environments
+.venv/
+venv/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing and coverage outputs
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Environment variables and API keys
+.env
+.env.*
+!.env.example
+
+# IDE configuration
+.vscode/
+.idea/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Downloaded and generated project data
+data/
+
+# Trained models and experiment outputs
+models/
+reports/
+results/
+logs/
+
+# Python build and packaging outputs
+build/
+dist/
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.log
