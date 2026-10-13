@@ -6,11 +6,12 @@ build-backend = "setuptools.build_meta"
 name = "newsalpha"
 version = "0.1.0"
 description = "A point-in-time sentiment-aware portfolio research platform"
-authors = [
-    { name = "Pulkit Sharma" }
-]
+authors = [{ name = "Pulkit Sharma" }]
 requires-python = ">=3.11,<3.13"
-dependencies = []
+dependencies = [
+    "pandas>=2.2,<3",
+    "yfinance[repair]>=0.2,<1",
+]
 
 [tool.setuptools.packages.find]
 where = ["src"]
